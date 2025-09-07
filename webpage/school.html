@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <title>Hello, This is ME</title>
+    <nav>
+        <div class="brand"></div> <!--in case I wanna change-->
+        <ol class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="chess.html">Chess</a></li>
+        <li><a href="project.html">Project</a></li>
+        <li><a href="school.html"><b>School</b></a></li>
+        </ol>
+    </nav>
+</head>
+<body>
+    <div style="display: flex; align-items: center ; flex-direction: column;">
+        <button style = "margin: 10px; width: 50%;" id = 'school_btn' onclick="show_image()">
+            Where are you now...
+        </button>
+        <img src="sisb.png" style = "width: 100%; height: auto; visibility: hidden;" id = 'school'>
+    </div>
+    <script src="school.js"></script>
+</body>
+</html>

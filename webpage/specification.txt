@@ -1,0 +1,13 @@
+<html>, <head>, <body>, and <title>.
+This is for cs50's specification explaination to all 10 distinct tags I've chosen:
+<img> for image, integrated with JS to hide/show on button click
+<button> for button, detect clicking with JS
+<div> for division of different sections
+<nav> for navigation bar
+<ol> for ordered list
+<li> for list element
+<a> for hyperlink
+<h1,h2,h3,h4> for headings
+<meta> for meta informations
+<link> for linking css files
+<iframe> for displaying images

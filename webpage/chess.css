@@ -1,0 +1,43 @@
+html, body{
+    text-align: center;
+    height:max-content;
+    margin: 0;
+    background: linear-gradient(to top, rgb(0, 100, 0), rgb(54, 169, 0));
+    background-repeat: no-repeat;
+}
+
+ol{
+    list-style-position: inside;
+}
+
+#chess-explaination{
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+#chess-list{
+    margin: 50px;
+    font: 25px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+#list-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#h4{
+    height: 500px;
+    width: 500px;
+}
+
+#fide-profile{
+    font-size: 50px;
+    margin: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: solid;
+    color: black;
+}
